@@ -2,10 +2,10 @@
 Copyright (c) 2016 ChoJaeHo All Rights Reserved.*/
 /*init*/
 html,body{
-    width: 100%;
-    height: 100%;
-    padding:0;
-    margin: 0;
+    width: 100% ;
+    height: 100% ;
+    padding:0 ;
+    margin: 0 ;
 }
 .parent{
 
@@ -14,18 +14,399 @@ html,body{
 
 }
 /*grid*/
+.row{} //TODO: need media query
 [class*="col-"]{
-  float: left;
+  float: left ;
 }
-.col-1{ width: 8.33%; }
-.col-2{ width: 16.66%; }
-.col-3{ width: 25%; }
-.col-4{ width: 33.33%; }
-.col-5{ width: 41.66%; }
-.col-6{ width: 50%; }
-.col-7{ width: 58.33%; }
-.col-8{ width: 66.66%; }
-.col-9{ width: 75%; }
-.col-10{ width: 83.33%; }
-.col-11{ width: 91.66%; }
-.col-12{ width: 100%; }
+.col-1{ width: 8.33% ; }
+.col-2{ width: 16.66% ; }
+.col-3{ width: 25% ; }
+.col-4{ width: 33.33% ; }
+.col-5{ width: 41.66% ; }
+.col-6{ width: 50% ; }
+.col-7{ width: 58.33% ; }
+.col-8{ width: 66.66% ; }
+.col-9{ width: 75% ; }
+.col-10{ width: 83.33% ; }
+.col-11{ width: 91.66% ; }
+.col-12{ width: 100% ; }
+/*container*/
+[class*="con-"]{
+
+}
+.container{}
+.container-flow{}
+/* text position */
+.text-center{
+  text-align: center ;
+}
+/*aside*/
+/*badges*/
+/*button*/
+/*color*/
+/*red pink purple deep-purple indigo blue light-blue cyan teal green light-green lime yello amber orange deep-orange brown grey blue-grey black white */
+.red{
+  background-color: #F44336 !important;
+}
+
+.red-50{
+  background-color: #FFEBEE !important;
+}
+
+.red-100{
+  background-color: #FFCDD2 !important;
+}
+
+.red-200{
+  background-color: #EF9A9A !important;
+}
+
+.red-300{
+  background-color: #E57373 !important;
+}
+
+.red-400{
+  background-color: #EF5350 !important;
+}
+
+.red-500{
+  background-color: #F44336 !important;
+}
+
+.red-600{
+  background-color: #E53935 !important;
+}
+
+.red-700{
+  background-color: #D32F2F !important;
+}
+
+.red-800{
+  background-color: #C62828 !important;
+}
+
+.red-900{
+  background-color: #B71C1C !important;
+}
+
+.red-A100{
+  background-color: #FF8A80 !important;
+}
+
+.red-A200{
+  background-color: #FF5252 !important;
+}
+
+.red-A400{
+  background-color: #FF1744 !important;
+}
+
+.red-A700{
+  background-color: #D50000 !important;
+}
+
+.red-text{
+  color: #F44336 !important;
+}
+
+.red-text-50{
+  color: #FFEBEE !important;
+}
+
+.red-text-100{
+  color: #FFCDD2 !important;
+}
+
+.red-text-200{
+  color: #EF9A9A !important;
+}
+
+.red-text-300{
+  color: #E57373 !important;
+}
+
+.red-text-400{
+  color: #EF5350 !important;
+}
+
+.red-text-500{
+  color: #F44336 !important;
+}
+
+.red-text-600{
+  color: #E53935 !important;
+}
+
+.red-text-700{
+  color: #D32F2F !important;
+}
+
+.red-text-800{
+  color: #C62828 !important;
+}
+
+.red-text-900{
+  color: #B71C1C !important;
+}
+
+.red-text-A100{
+  color: #FF8A80 !important;
+}
+
+.red-text-A200{
+  color: #FF5252 !important;
+}
+
+.red-text-A400{
+  color: #FF1744 !important;
+}
+
+.red-text-A700{
+  color: #D50000 !important;
+}
+
+.pink{
+  background-color: #E91E63 !important;
+}
+
+.pink-50{
+  background-color: #FCE4EC !important;
+}
+
+.pink-100{
+  background-color: #F8BBD0 !important;
+}
+
+.pink-200{
+  background-color: #F48FB1 !important;
+}
+
+.pink-300{
+  background-color: #F06292 !important;
+}
+
+.pink-400{
+  background-color: #EC407A !important;
+}
+
+.pink-500{
+  background-color: #F44336 !important;
+}
+
+.pink-600{
+  background-color: #D81B60 !important;
+}
+
+.pink-700{
+  background-color: #C2185B !important;
+}
+
+.pink-800{
+  background-color: #AD1457 !important;
+}
+
+.pink-900{
+  background-color: #880E4F !important;
+}
+
+.pink-A100{
+  background-color: #FF80AB !important;
+}
+
+.pink-A200{
+  background-color: #FF4081 !important;
+}
+
+.pink-A400{
+  background-color: #F50057 !important;
+}
+
+.pink-A700{
+  background-color: #C51162 !important;
+}
+
+.pink-text{
+  color: #E91E63 !important;
+}
+
+.pink-text-50{
+  color: #FCE4EC !important;
+}
+
+.pink-text-100{
+  color: #F8BBD0 !important;
+}
+
+.pink-text-200{
+  color: #F48FB1 !important;
+}
+
+.pink-text-300{
+  color: #F06292 !important;
+}
+
+.pink-text-400{
+  color: #EC407A !important;
+}
+
+.pink-text-500{
+  color: #E91E63 !important;
+}
+
+.pink-text-600{
+  color: #D81B60 !important;
+}
+
+.pink-text-700{
+  color: #C2185B !important;
+}
+
+.pink-text-800{
+  color: #AD1457 !important;
+}
+
+.pink-text-900{
+  color: #880E4F !important;
+}
+
+.pink-text-A100{
+  color: #FF80AB !important;
+}
+
+.pink-text-A200{
+  color: #FF4081 !important;
+}
+
+.pink-text-A400{
+  color: #F50057 !important;
+}
+
+.pink-text-A700{
+  color: #C51162 !important;
+}
+
+.purple{
+  background-color: #9C27B0 !important;
+}
+
+.purple-50{
+  background-color: #F3E5F5 !important;
+}
+
+.purple-100{
+  background-color: #E1BEE7 !important;
+}
+
+.purple-200{
+  background-color: #CE93D8 !important;
+}
+
+.purple-300{
+  background-color: #BA68C8 !important;
+}
+
+.purple-400{
+  background-color: #AB47BC !important;
+}
+
+.purple-500{
+  background-color: #F44336 !important;
+}
+
+.purple-600{
+  background-color: #8E24AA !important;
+}
+
+.purple-700{
+  background-color: #7B1FA2 !important;
+}
+
+.purple-800{
+  background-color: #6A1B9A !important;
+}
+
+.purple-900{
+  background-color: #4A148C !important;
+}
+
+.purple-A100{
+  background-color: #EA80FC !important;
+}
+
+.purple-A200{
+  background-color: #E040FB !important;
+}
+
+.purple-A400{
+  background-color: #D500F9 !important;
+}
+
+.purple-A700{
+  background-color: #AA00FF !important;
+}
+
+.purple-text{
+  color: #9C27B0 !important;
+}
+
+.purple-text-50{
+  color: #F3E5F5 !important;
+}
+
+.purple-text-100{
+  color: #E1BEE7 !important;
+}
+
+.purple-text-200{
+  color: #CE93D8 !important;
+}
+
+.purple-text-300{
+  color: #BA68C8 !important;
+}
+
+.purple-text-400{
+  color: #AB47BC !important;
+}
+
+.purple-text-500{
+  color: #9C27B0 !important;
+}
+
+.purple-text-600{
+  color: #8E24AA !important;
+}
+
+.purple-text-700{
+  color: #7B1FA2 !important;
+}
+
+.purple-text-800{
+  color: #6A1B9A !important;
+}
+
+.purple-text-900{
+  color: #4A148C !important;
+}
+
+.purple-text-A100{
+  color: #EA80FC !important;
+}
+
+.purple-text-A200{
+  color: #E040FB !important;
+}
+
+.purple-text-A400{
+  color: #D500F9 !important;
+}
+
+.purple-text-A700{
+  color: #AA00FF !important;
+}
+
+/*form*/
+/*icon*/
+/*image*/
+/*list*/
+/*nav*/
