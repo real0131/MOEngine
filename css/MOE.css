@@ -14,11 +14,20 @@ html,body{
 
 }
 /*grid*/
-.row{} //TODO: need media query
-[class*="col-"]{
-  float: left ;
+.row{
+  width: 100%;
 }
+.row-flow{
+  width: 100%;
+}
+//TODO: need media query
+
+[class*="col-"]{
+  float: left;
+}
+
 .col-1{
+
   width: 8.33% ;
 }
 
@@ -65,6 +74,7 @@ html,body{
 .col-12{
    width: 100% ;
  }
+
 /*container*/
 [class*="con-"]{
 
@@ -2285,7 +2295,42 @@ html,body{
   color: #FFFFFF;
 }
 /*form*/
+input{
+
+}
+
+label{
+
+}
+
+label:focus{
+
+}
+
+input[type=text]{
+  border-bottom: 1px solid rgb(158,158,158);
+}
+
+input[type=text]:focus{
+  border-bottom: 2px solid rgb(158,158,158);
+  transition-duration: 0.2s;
+}
+
+input[type=password]{
+
+}
+
 /*icon*/
 /*image*/
 /*list*/
 /*nav*/
+
+
+/*media query*/
+/*mobile*/
+@media only screen and(max-device-width:480px){
+  row-flow{
+    width: 200%;
+    overflow-x: scroll;
+  }
+}
